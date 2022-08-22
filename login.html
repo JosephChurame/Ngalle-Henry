@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    input[type=submit] {
+    width: 100%;
+    background-color: #4ca8af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    }
+
+    input[type=submit]:hover {
+        background-color: #4565a0;
+        border-radius: 20px;
+    }
+
+    body{
+        background-color: lightblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .div {
+        border-radius: 20px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        max-width: 300px;
+        min-width: 200px;
+        height: 500px;
+        min-height: 450px;
+        max-height: 600px;
+        margin: auto;
+        transition: 2s;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+        position: absolute;
+        z-index: 1;
+        right: 30px;
+    }
+
+
+</style>
+<body style="margin: 0px;">
+
+    <div class="div">
+            <div style="height: 130px; width: 100%; ">
+                <center>
+                    <img src="images/logo.jpg" alt="cuk logo" style="height: 130px; ">
+                </center>
+            </div>
+          <form action="#">
+            <label for="fname">Username</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your username">
+        
+            <label for="lname">password</label>
+            <input type="password" id="lname" name="lastname" placeholder="Enter your password">
+        
+            <label for="lname">matricule</label>
+            <input type="password" id="lname" name="lastname" placeholder="Enter Matricule">
+        
+            <!-- <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select> -->
+          
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+
+
+<h3>Login to your account </h3>
+
+
+
+</body>
+
+</html>
